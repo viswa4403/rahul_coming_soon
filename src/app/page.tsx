@@ -68,11 +68,10 @@ import React from "react";
 const ComingSoon = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white px-4 relative">
-     
       <img
         src="../images/logo.png"
         alt="Logo"
-        className="absolute top-5 left-1/2 transform -translate-x-1/2 w-[50px] sm:w-[70px] h-auto"
+        className="absolute top-5 left-1/2 transform -translate-x-1/2 w-[50px] sm:w-[70px] h-auto animate-float"
       />
 
       {/* Main Content */}
@@ -94,22 +93,54 @@ const ComingSoon = () => {
           COMING SOON!!
         </h2>
         <p className="font-medium text-[19.25px] text-[#666666] leading-[130%] tracking-[0.05em] text-center">
-          We're working hard to finish the website and we'll be ready <br />
-          to launch after this brief today.
+          Something beautiful is on the horizon. Stay tuned to <br />
+          be the first to know.
         </p>
       </div>
 
       <div className="mt-10 overflow-hidden relative w-full">
         <div className="flex animate-scroll gap-0">
-          <img src="../images/Comingsoonimg3.png" alt="Gallery 1" className="rounded-lg w-100" />
-          <img src="../images/Comingsoonimg3.png" alt="Gallery 2" className="rounded-lg w-100" />
-          <img src="../images/Comingsoonimg3.png" alt="Gallery 3" className="rounded-lg w-100" />
-          <img src="../images/Comingsoonimg4.png" alt="Gallery 4" className="rounded-lg w-100" />
+          <img
+            src="../images/Comingsoonimg3.png"
+            alt="Gallery 1"
+            className="rounded-lg w-100"
+          />
+          <img
+            src="../images/Comingsoonimg3.png"
+            alt="Gallery 2"
+            className="rounded-lg w-100"
+          />
+          <img
+            src="../images/Comingsoonimg3.png"
+            alt="Gallery 3"
+            className="rounded-lg w-100"
+          />
+          <img
+            src="../images/Comingsoonimg4.png"
+            alt="Gallery 4"
+            className="rounded-lg w-100"
+          />
 
-          <img src="../images/Comingsoonimg3.png" alt="Gallery 1" className="rounded-lg w-100" />
-          <img src="../images/Comingsoonimg3.png" alt="Gallery 2" className="rounded-lg w-100" />
-          <img src="../images/Comingsoonimg3.png" alt="Gallery 3" className="rounded-lg w-100" />
-          <img src="../images/Comingsoonimg4.png" alt="Gallery 4" className="rounded-lg w-100" />
+          <img
+            src="../images/Comingsoonimg3.png"
+            alt="Gallery 1"
+            className="rounded-lg w-100"
+          />
+          <img
+            src="../images/Comingsoonimg3.png"
+            alt="Gallery 2"
+            className="rounded-lg w-100"
+          />
+          <img
+            src="../images/Comingsoonimg3.png"
+            alt="Gallery 3"
+            className="rounded-lg w-100"
+          />
+          <img
+            src="../images/Comingsoonimg4.png"
+            alt="Gallery 4"
+            className="rounded-lg w-100"
+          />
         </div>
       </div>
     </div>
