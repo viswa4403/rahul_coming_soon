@@ -79,67 +79,125 @@ const ComingSoon = () => {
         <img
           src="../images/Frame 52757.png"
           alt="Walking Illustration"
-          className="w-auto h-auto mt-20 animate-skate absolute top-[-120px] z-1"
+          className="w-auto h-[130px] mt-24 animate-skate absolute top-[-120px] z-1 "
         />
         <img
           src="../images/Frame 1000000879.png"
           alt="Main Illustration"
-          className="w-100"
+          className="w-100 mt-[-60px] md:mt-[-60px]"
         />
       </div>
 
       <div className="text-center rounded-md p-2">
-        <h2 className="text-3xl sm:text-6xl md:text-6xl lg:text-[75px] font-[700] text-[#9B7B2D] mb-5">
+        <h2 className="text-3xl sm:text-6xl md:text-6xl lg:text-[40px] font-[700] text-[#9B7B2D] mb-5 md:text-[30px] ">
           COMING SOON!!
         </h2>
-        <p className="font-medium text-[19.25px] text-[#666666] leading-[130%] tracking-[0.05em] text-center">
+        <p className="font-medium text-[15.25px] text-[#666666] leading-[130%] tracking-[0.05em] text-center  md:text-[12px] ">
           Something beautiful is on the horizon. Stay tuned to <br />
           be the first to know.
         </p>
       </div>
 
-      <div className="mt-10 overflow-hidden relative w-full">
-        <div className="flex animate-scroll gap-0">
+      {/* <div className="mt-10 overflow-hidden relative w-full">
+        <div className="flex animate-scroll gap-10 mb-10">
           <img
-            src="../images/Comingsoonimg3.png"
+            src="../images/cominpage.jpeg"
             alt="Gallery 1"
-            className="rounded-lg w-100"
-          />
-          <img
-            src="../images/Comingsoonimg3.png"
-            alt="Gallery 2"
-            className="rounded-lg w-100"
-          />
-          <img
-            src="../images/Comingsoonimg3.png"
-            alt="Gallery 3"
-            className="rounded-lg w-100"
-          />
-          <img
-            src="../images/Comingsoonimg4.png"
-            alt="Gallery 4"
-            className="rounded-lg w-100"
+            className="rounded-lg w-100 h-80"
           />
 
           <img
-            src="../images/Comingsoonimg3.png"
-            alt="Gallery 1"
-            className="rounded-lg w-100"
-          />
-          <img
-            src="../images/Comingsoonimg3.png"
-            alt="Gallery 2"
-            className="rounded-lg w-100"
-          />
-          <img
-            src="../images/Comingsoonimg3.png"
-            alt="Gallery 3"
-            className="rounded-lg w-100"
-          />
-          <img
-            src="../images/Comingsoonimg4.png"
+            src="../images/cominpage1.jpeg"
             alt="Gallery 4"
-            className="rounded-lg w-100"
+            className="rounded-lg w-100 h-80"
+          />
+
+          <img
+            src="../images/cominpage2.jpeg"
+            alt="Gallery 1"
+            className="rounded-lg w-100 h-80"
+          />
+          <img
+            src="../images/cominpage7.jpeg"
+            alt="Gallery 2"
+            className="rounded-lg w-150 h-80"
+          />
+          <img
+            src="../images/cominpage4.jpeg"
+            alt="Gallery 3"
+            className="rounded-lg w-100 h-80"
+          />
+          <img
+            src="../images/cominpage5.jpeg"
+            alt="Gallery 4"
+            className="rounded-lg w-100 h-80"
+          />
+        </div>
+      </div> */}
+
+      <div className="mt-10 overflow-hidden relative w-full">
+        <div className="flex animate-scroll gap-10 mb-10">
+          <img
+            src="../images/cominpage.jpeg"
+            alt="Gallery 1"
+            className="rounded-lg w-80 h-80"
+          />
+          <img
+            src="../images/cominpage1.jpeg"
+            alt="Gallery 2"
+            className="rounded-lg w-80 h-80"
+          />
+          <img
+            src="../images/cominpage2.jpeg"
+            alt="Gallery 3"
+            className="rounded-lg w-80 h-80"
+          />
+          <img
+            src="../images/cominpage7.jpeg"
+            alt="Gallery 4"
+            className="rounded-lg w-80 h-80"
+          />
+          <img
+            src="../images/cominpage4.jpeg"
+            alt="Gallery 5"
+            className="rounded-lg w-80 h-80"
+          />
+          <img
+            src="../images/cominpage5.jpeg"
+            alt="Gallery 6"
+            className="rounded-lg w-80 h-80"
+          />
+
+          {/* Duplicate images for seamless infinite scroll */}
+          <img
+            src="../images/cominpage.jpeg"
+            alt="Gallery 1"
+            className="rounded-lg w-80 h-80"
+          />
+          <img
+            src="../images/cominpage1.jpeg"
+            alt="Gallery 2"
+            className="rounded-lg w-80 h-80"
+          />
+          <img
+            src="../images/cominpage2.jpeg"
+            alt="Gallery 3"
+            className="rounded-lg w-80 h-80"
+          />
+          <img
+            src="../images/cominpage7.jpeg"
+            alt="Gallery 4"
+            className="rounded-lg w-80 h-80"
+          />
+          <img
+            src="../images/cominpage4.jpeg"
+            alt="Gallery 5"
+            className="rounded-lg w-80 h-80"
+          />
+          <img
+            src="../images/cominpage5.jpeg"
+            alt="Gallery 6"
+            className="rounded-lg w-80 h-80"
           />
         </div>
       </div>
