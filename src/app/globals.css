@@ -98,3 +98,37 @@ nav{
             writing-mode: vertical-rl;
             text-orientation: mixed;
           }
+
+
+/* If image is at /public/images/roller-skate.png */
+/* Custom cursor - with hotspot coordinates */
+* {
+  cursor: url('/images/roller-skate.png') 16 16, auto !important;
+}
+
+body {
+  cursor: url('/images/roller-skate.png') 16 16, auto !important;
+}
+
+/* For clickable elements */
+a, button, [role="button"], [onclick] {
+  cursor: url('/images/roller-skate.png') 16 16, pointer !important;
+}
+
+/* For input fields */
+input, textarea, select {
+  cursor: url('/images/roller-skate.png') 16 16, text !important;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.helo {
+  cursor: url(/images/roller-skate.png) 36 36, auto;
+}
